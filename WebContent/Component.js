@@ -16,7 +16,7 @@ sap.ui.core.UIComponent.extend("sap.ui.demo.tdg.Component",    {
                 serviceConfig : {
                     name : "Northwind",
                     //serviceUrl : "http://localhost:8000/services.odata.org/V2/(S(sapuidemotdg))/OData/OData.svc/"
-                    serviceUrl : "http://localhost:8000/services.odata.org/V2/(S(testdata))/OData/OData.svc/"
+                    serviceUrl : "proxy/V2/(S(testdata))/OData/OData.svc/"
                 }
             },
             routing : {
