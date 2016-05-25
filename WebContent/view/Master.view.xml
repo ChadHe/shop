@@ -20,6 +20,7 @@
                         </Bar>
                 </subHeader>
                 <content>
+                	<ScrollContainer height="100%" width="100%" horizontal="true" vertical="true" focusable="true">
                         <List
                                 id="list"
                                 items="{/Products}"
@@ -47,6 +48,7 @@
                                         </ObjectListItem>
                                 </items>
                         </List>
+					</ScrollContainer>
                 </content>
                 <footer>
                         <Bar>
